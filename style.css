@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  
+}
+
+html{
+  background-color: #F8F0E5;
+}
+
+/* Damn Horizontal Bar */
+body{
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x:hidden ;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: normal;
+}
+
+.nav2-bar{
+  text-align: right;
+  float: right;
+
+}
+nav img{
+  width: 125px;
+}
+
+.nav-bar{
+  flex: 1;
+  text-align: center;
+}
+
+.nav-bar ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+
+.nav-bar ul li a{
+  color:  #6d6a75;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.home-text{
+  width: 100%;
+  color: #272727;
+  position: absolute;
+  top: 25%;
+  left: 9%;
+}
+
+.container{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  padding-left: 0px;
+}
+
+
+.container ul li{
+  list-style: none;
+  display: inline-block;
+  padding: left 0px 12px;
+  padding: 5px 12px;
+}
+
+.container ul li a{
+  color:  #6d6a75;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.container nav{
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+/* Split the screen in half */
+.split {
+  top: 20%; 
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
